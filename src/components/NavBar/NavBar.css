@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  /* margin-left: 1%; */
+  color: black;
+}
+
+.leftContainer p {
+  margin: 0 5px;
+  /* width: 80%; */
+}
+
+.rightContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20%;
+}
+
+.rightContainer button:hover {
+  background-color: darkgreen;
+}
+
+#loginBtn:hover {
+  color: darkgreen !important;
+  background-color: transparent;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 10 !important;
+}
+
+.navText {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: rgb(255, 56, 56);
+}
+
+@media only screen and (max-width: 1180px) {
+  .leftContainer {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .leftContainer {
+    width: 55%;
+  }
+  #loginBtnMobile {
+    color: black;
+    background-color: transparent;
+  }
+}

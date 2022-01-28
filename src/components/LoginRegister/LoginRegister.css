@@ -1,0 +1,21 @@
+/* .modalMeu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  bgcolor: background.paper;
+  border: 2px solid #000;
+  box-shadow: 24;
+  font-size: 4;
+} */
+
+.modalBorderRadius {
+  border-radius: 10px;
+}
+
+.mobileModal {
+  width: 90%;
+  height: 90%;
+}

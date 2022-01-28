@@ -1,0 +1,84 @@
+.drawer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-right-radius: 10px;
+  background-color: #5c78cc;
+}
+
+.sideNavLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 210px;
+  margin-top: 70px;
+  /* padding-left: 15px; */
+}
+
+.sideNavLinks a {
+  color: #bec9eb;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 5px 15px 20px;
+}
+
+.sdNavLogoutBtn {
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 10px 70px 10px 10px;
+}
+
+.logoSideNav {
+  color: white !important;
+  font-size: 24px;
+  font-weight: 100;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+#peopleIcon svg,
+#dashIcon path,
+#notificationsIcon path,
+#settingsIcon path {
+  fill: #bec9eb;
+}
+
+#peopleIcon,
+#dashIcon,
+#notificationsIcon,
+#settingsIcon {
+  margin-right: 10px;
+  width: 20px;
+}
+
+.activeNavLink {
+  color: white !important;
+  background-color: #5471c7;
+}
+
+.activeNavLink path,
+.activeNavLink svg {
+  fill: white !important;
+}
+
+.activeNavLink p {
+  color: white;
+}
+
+.sideNavLinks span {
+  height: 100%;
+  width: 4px;
+  background-color: white;
+  /* border-top-right-radius: 90px;
+  border-bottom-right-radius: 80px; */
+  border-radius: 0px 10px 10px 0px;
+}
+
+.navLinksCtnr {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
